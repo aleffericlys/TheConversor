@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}The Comversor: Criptomoedas{% endblock %}
+{% block content %}
+		<!-- <h1>Conversor de Criptomoedas</h1>
+
+		<form method="post">
+			{% csrf_token %}
+			{{ form.opcao1.label_tag }}
+			{{ form.opcao1 }}
+			<input type="number" name="{{ form.texto1.name }}" id="id_texto1" value="1">
+			<br>
+			{{ form.opcao2.label_tag }}
+			<select name="{{ form.opcao2.name }}" id="id_opcao2">
+				{% for value, label in form.opcao2.choices %}
+					<option value="{{ value }}">{{ label }}</option>
+				{% endfor %}
+			</select>
+			<input type="number" name="{{ form.texto1.name }}" id="id_texto2" value="1">
+			<br>
+			
+		</form> -->
+	<form action="" method="post">
+		{% csrf_token %}
+		<div class="centered-container col-12">
+			<div class="centered-card card col-11 m-auto h-50">
+			<div class="card-body">
+				<h5 class="card-title">Conversor de Moedas</h5>
+				<div class="row">
+					<p class="card-text">Selecione a moeda base e a medida para conversão.</p>
+					<div class="col-2 d-flex justify-content-center align-items-center">
+						<p class="m-0">{{ form.opcao1.label_tag }}</p>
+					</div>
+					<div class="col-5">
+						{{ form.opcao1 }}
+					</div>
+					<div class="col-5">
+						<input class="form-control" type="number" name="{{ form.texto1.name }}" id="id_texto1" value="1">
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-2 d-flex justify-content-center align-items-center">
+						<p class="m-0">{{ form.opcao2.label_tag }}</p>
+					</div>
+					<div class="col-5" >
+						<select class="form-select text-center" name="{{ form.opcao3.name }}" id="id_opcao2">
+							{% for value, label in form.opcao2.choices %}
+								<option value="{{ value }}">{{ label }}</option>
+							{% endfor %}
+						</select>
+					</div>
+					<div class="col-5">
+						<input class="form-control" type="number" name="{{ form.texto1.name }}" id="id_texto2" value="1">
+					</div>
+				</div>
+
+			</div>
+			</div>
+		</div>
+	</form>
+		
+{% endblock %}
+
+{% block 'script' %}
+	<script src="{% static 'js/criptoScript.js' %}"></script>
+{% endblock %}

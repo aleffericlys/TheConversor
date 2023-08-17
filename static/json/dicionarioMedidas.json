@@ -1,0 +1,36 @@
+{
+	"comprimento":
+		["nanometro", "micrometro", "milimetro", "centimetro", "metro", "quilometro", "milha", "jarda", "pe", "polegada", "milha_nautica"],
+	"velocidade":
+		["metro_por_segundo", "quilometro_por_hora", "milha_por_hora", "no", "pe_por_segundo"],
+	"area":
+		["micrometro_quadrado", "milimetro_quadrado", "centimetro_quadrado", "polegada_quadrada", "pe_quadrado", "metro_quadrado", "quilometro_quadrado", "milha_quadrada", "acre", "hectare"],
+	"volume":
+		["litro", "mililitro", "metro_cubico", "galao", "pint", "onca_fluida", "centimetro_cubico", "pe_cubico"],
+	"temperatura":
+		["celsius", "fahrenheit", "kelvin"],
+	"peso_massa":
+		["miligrama", "grama", "quilograma", "tonelada", "libra", "onca"],
+	"tempo":
+		["nanosegundo", "microsegundo", "milisegundo", "segundo", "minuto", "hora", "dia", "semana", "mes", "ano", "decada", "seculo"],
+	"angulo":
+		["grau", "radiano", "grado", "minuto_de_arco", "segundo_de_arco"],
+	"armazenamento_dados":
+		["bit", "byte", "kilobit", "kilobyte", "megabit", "megabyte", "gigabit", "gigabyte", "terabit", "terabyte"],
+	"velocidade_transferencia_dados":
+		["bit_por_segundo", "byte_por_segundo", "kilobit_por_segundo", "kilobyte_por_segundo", "megabit_por_segundo", "megabyte_por_segundo", "gigabit_por_segundo", "gigabyte_por_segundo", "terabit_por_segundo", "terabyte_por_segundo"],
+	"aceleracao":
+		["metro_por_segundo_quadrado", "quilometro_por_hora_quadrado", "milha_por_hora_quadrado", "gal", "pe_por_segundo_quadrado"],
+	"forca":
+		["newton", "kilonewton", "grama_forca", "quilograma_forca", "tonelada_forca", "libra_forca"],
+	"pressao":
+		["pascal", "quilopascal", "bar", "libra_por_polegada_quadrada", "milimetro_de_mercurio", "centimetro_de_mercurio", "polegada_de_mercurio"],
+	"potencia":
+		["watt", "quilowatt", "cavalo_vapor", "british_thermal_unit_por_hora", "caloria_por_segundo", "libra_por_pe_por_minuto"],
+	"energia":
+		["joule", "quilojoule", "caloria", "quilocaloria", "watt_hora", "quilowatt_hora", "eletron_volts", "british_thermal_unit", "termia"],
+	"consumo_combustivel":
+		["quilometro_por_litro", "milha_por_galao", "litro_por_cem_quilometros"],
+	"frequencia":
+		["hertz", "kilohertz", "megahertz", "gigahertz", "terahertz", "revolucao_por_minuto"]
+}

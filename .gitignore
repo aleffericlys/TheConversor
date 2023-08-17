@@ -1,0 +1,32 @@
+# Ignorar arquivos de configuração do sistema
+__pycache__/
+*.py[cod]
+
+# Ignorar arquivos de mídia e bancos de dados
+media/
+db.sqlite3
+
+# Ignorar arquivos gerados por ferramentas externas
+*.idea/
+.vscode/
+*.pyc
+
+# Ignorar arquivos de ambiente e segredos (use com cautela)
+.env
+*.env
+
+# Ignorar arquivos de registro de erro e saída
+logs/
+*.log
+
+# Ignorar arquivos de instalação de dependências
+venv/
+env/
+lib/
+*.egg-info/
+
+# Ignorar arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+teste.ipynb
+combinacoesmoedas.json

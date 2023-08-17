@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}The Conversor: Home{% endblock %}
+{% block content %}
+
+	<div class="col-12 row row-cols-1 row-cols-md-3 g-1">
+		<a href="{% url 'moedas' %}" class="d-flex justify-content-center align-items-center hover-link">
+			<div class="col h-100">
+				<div class="card h-100" style="background-color: green">
+					<div class="card-body">
+						<h5 class="card-title">Moedas</h5>
+						<p class="card-text">Ao clicar será direcionado para uma página aonde apenas apareceram converções de moedas físicas para moedas físicas</p>
+					</div>
+				</div>
+			</div>
+		</a>
+
+		<a href="{% url 'cripto' %}" class="d-flex justify-content-center align-items-center hover-link">
+			<div class="col h-100">
+			<div class="card h-100" style="background-color: blueviolet">
+				<div class="card-body">
+				<h5 class="card-title">Criptomoedas</h5>
+				<p class="card-text">Ao clicar será direcionado para uma página aonde apenas apareceram converções de moedas virtuais para moedas virtuais</p>
+				</div>
+			</div>
+			</div>
+		</a>
+
+		<a href="{% url 'medidas' %}" class="d-flex justify-content-center align-items-center hover-link">
+		<div class="col h-100 hover-link">
+			<div class="card h-100" style="background-color: darkgray;">
+					<div class="card-body">
+						<h5 class="card-title">Medidas</h5>
+						<p class="card-text">Ao clicar será direcionado para uma página aonde apenas apareceram converções de medidas</p>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+	
+{% endblock %}

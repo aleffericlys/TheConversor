@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}The Conversor: Medidas{% endblock %}
+{% block content %}
+
+	<form action="" method="post">
+		{% csrf_token %}
+		<div class="centered-container col-12">
+			<div class="centered-card card col-11 m-auto h-50">
+			<div class="card-body">
+				<h5 class="card-title">Conversor de Medidas</h5>
+				<div class="col-12">
+					<p class="card-text">Selecione o tipo de medida que deseja converter</p>
+					{{ form.opcao1 }}
+				</div>
+				
+				<div class="row">
+					<p class="card-text">Selecione a medida base e a medida para conversão.</p>
+					<div class="col-2 d-flex justify-content-center align-items-center">
+						<p class="m-0">{{ form.opcao2.label_tag }}</p>
+					</div>
+					<div class="col-5">
+						<select class="form-select text-center" name="{{ form.opcao2.name }}" id="id_opcao2">
+							{% for value, label in form.opcao2.choices %}
+								<option value="{{ value }}">{{ label }}</option>
+							{% endfor %}
+						</select>
+					</div>
+					<div class="col-5">
+						<input class="form-control" type="number" name="{{ form.texto1.name }}" id="id_texto" value="1">
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-2 d-flex justify-content-center align-items-center">
+						<p class="m-0">{{ form.opcao3.label_tag }}</p>
+					</div>
+					<div class="col-5" >
+						<select class="form-select text-center" name="{{ form.opcao3.name }}" id="id_opcao3">
+							{% for value, label in form.opcao3.choices %}
+								<option value="{{ value }}">{{ label }}</option>
+							{% endfor %}
+						</select>
+					</div>
+					<div class="col-5">
+						<input class="form-control" type="number" name="{{ form.texto2.name }}" id="id_texto2" value="1">
+					</div>
+				</div>
+
+			</div>
+			</div>
+		</div>
+	</form>
+
+{% endblock %}
+
+{% block 'script' %}
+	<script src="{% static 'js/medidasScript.js' %}"></script>
+{% endblock %}

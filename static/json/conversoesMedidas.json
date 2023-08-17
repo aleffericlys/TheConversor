@@ -1,0 +1,1154 @@
+{
+  "comprimento": {
+    "metro": {
+      "quilometro": "var / 1000",
+      "centimetro": "var * 100",
+      "milimetro": "var * 1000",
+      "micrometro": "var * 1000000",
+      "nanometro": "var * 1000000000",
+      "milha": "var / 1609",
+      "jarda": "var * 1.094",
+      "pe": "var * 3.281",
+      "polegada": "var * 39.37",
+      "milha_nautica": "var / 1852"
+    },
+    "quilometro": {
+      "metro": "var * 1000",
+      "centimetro": "var * 100000",
+      "milimetro": "var * 1000000",
+      "micrometro": "var * 1000000000",
+      "nanometro": "var * 1000000000000",
+      "milha": "var / 1.609",
+      "jarda": "var * 1094",
+      "pe": "var * 3281",
+      "polegada": "var * 39,370",
+      "milha_nautica": "var / 1.852"
+    },
+    "centimetro": {
+      "metro": "var / 100",
+      "quilometro": "var / 100000",
+      "milimetro": "var * 10",
+      "micrometro": "var * 10000",
+      "nanometro": "var * 10000000",
+      "milha": "var / 160934",
+      "jarda": "var / 91.44",
+      "pe": "var / 30.48",
+      "polegada": "var / 2.54",
+      "milha_nautica": "var / 185200"
+    },
+    "milimetro": {
+      "metro": "var / 1000",
+      "quilometro": "var / 1000000",
+      "centimetro": "var / 10",
+      "micrometro": "var * 1000",
+      "nanometro": "var * 1000000",
+      "milha": "var / 1609344",
+      "jarda": "var / 914.4",
+      "pe": "var / 304.8",
+      "polegada": "var / 25.4",
+      "milha_nautica": "var / 185200000"
+    },
+    "micrometro": {
+      "metro": "var / 1000000",
+      "quilometro": "var / 1000000000",
+      "centimetro": "var / 10000",
+      "milimetro": "var / 1000",
+      "nanometro": "var * 1000",
+      "milha": "var / 1609344000",
+      "jarda": "var / 914400",
+      "pe": "var / 304800",
+      "polegada": "var / 25400",
+      "milha_nautica": "var / 1852000000"
+    },
+    "nanometro": {
+      "metro": "var / 1000000000",
+      "quilometro": "var / 1000000000000",
+      "centimetro": "var / 10000000",
+      "milimetro": "var / 1000000",
+      "micrometro": "var / 1000",
+      "milha": "var / 1609344000000",
+      "jarda": "var / 914400000",
+      "pe": "var / 304800000",
+      "polegada": "var / 25400000",
+      "milha_nautica": "var / 1852000000000"
+    },
+    "milha": {
+      "metro": "var * 1609",
+      "quilometro": "var * 1.609",
+      "centimetro": "var * 160934",
+      "milimetro": "var * 1609344",
+      "micrometro": "var * 1609344000",
+      "nanometro": "var * 1609344000000",
+      "jarda": "var * 1760",
+      "pe": "var * 5280",
+      "polegada": "var * 63360",
+      "milha_nautica": "var * 0.868976"
+    },
+    "jarda": {
+      "metro": "var / 1.094",
+      "quilometro": "var / 1094",
+      "centimetro": "var * 91.44",
+      "milimetro": "var * 914.4",
+      "micrometro": "var * 914400",
+      "nanometro": "var * 914400000",
+      "milha": "var / 1760",
+      "pe": "var * 3",
+      "polegada": "var * 36",
+      "milha_nautica": "var / 2025.37"
+    },
+    "pe": {
+      "metro": "var / 3.281",
+      "quilometro": "var / 3281",
+      "centimetro": "var * 30.48",
+      "milimetro": "var * 304.8",
+      "micrometro": "var * 304800",
+      "nanometro": "var * 304800000",
+      "milha": "var / 5280",
+      "jarda": "var / 3",
+      "polegada": "var * 12",
+      "milha_nautica": "var / 6076.12"
+    },
+    "polegada": {
+      "metro": "var / 39.37",
+      "quilometro": "var / 39370",
+      "centimetro": "var * 2.54",
+      "milimetro": "var * 25.4",
+      "micrometro": "var * 25400",
+      "nanometro": "var * 25400000",
+      "milha": "var / 63360",
+      "jarda": "var / 36",
+      "pe": "var / 12",
+      "milha_nautica": "var / 72913.4"
+    },
+    "milha_nautica": {
+      "metro": "var * 1852",
+      "quilometro": "var * 1.852",
+      "centimetro": "var * 185200",
+      "milimetro": "var * 1852000",
+      "micrometro": "var * 1852000000",
+      "nanometro": "var * 1852000000000",
+      "milha": "var * 1.15078",
+      "jarda": "var * 2025.37",
+      "pe": "var * 6076.12",
+      "polegada": "var * 72913.4"
+    }
+  },
+  "velocidade": {
+    "metro_por_segundo": {
+      "quilometro_por_hora": "var * 3.6",
+      "milha_por_hora": "var * 2.237",
+      "no": "var * 1.944",
+      "pe_por_segundo": "var * 3.281"
+    },
+    "quilometro_por_hora": {
+      "metro_por_segundo": "var / 3.6",
+      "milha_por_hora": "var / 1.609",
+      "no": "var / 1.852",
+      "pe_por_segundo": "var / 1.097"
+    },
+    "milha_por_hora": {
+      "metro_por_segundo": "var / 2.237",
+      "quilometro_por_hora": "var * 1.609",
+      "no": "var / 1.151",
+      "pe_por_segundo": "var * 1.467"
+    },
+    "no": {
+      "metro_por_segundo": "var / 1.944",
+      "quilometro_por_hora": "var * 1.852",
+      "milha_por_hora": "var * 1.151",
+      "pe_por_segundo": "var * 1.688"
+    },
+    "pe_por_segundo": {
+      "metro_por_segundo": "var / 3.281",
+      "quilometro_por_hora": "var * 1.097",
+      "milha_por_hora": "var / 1.467",
+      "no": "var / 1.688"
+    }
+  },
+  "aceleracao": {
+    "metro_por_segundo_quadrado": {
+      "quilometro_por_hora_quadrado": "var * 12960000",
+      "milha_por_hora_quadrado": "var * 3609.344",
+      "gal": "var * 100",
+      "pe_por_segundo_quadrado": "var * 3.28084"
+    },
+    "quilometro_por_hora_quadrado": {
+      "metro_por_segundo_quadrado": "var / 12960000",
+      "milha_por_hora_quadrado": "var / 0.159386",
+      "gal": "var / 100",
+      "pe_por_segundo_quadrado": "var / 0.911344"
+    },
+    "milha_por_hora_quadrado": {
+      "metro_por_segundo_quadrado": "var / 3609.344",
+      "quilometro_por_hora_quadrado": "var * 0.159386",
+      "gal": "var / 10000",
+      "pe_por_segundo_quadrado": "var * 0.0685218"
+    },
+    "gal": {
+      "metro_por_segundo_quadrado": "var / 100",
+      "quilometro_por_hora_quadrado": "var * 100",
+      "milha_por_hora_quadrado": "var * 10000",
+      "pe_por_segundo_quadrado": "var * 0.328084"
+    },
+    "pe_por_segundo_quadrado": {
+      "metro_por_segundo_quadrado": "var / 3.28084",
+      "quilometro_por_hora_quadrado": "var / 0.911344",
+      "milha_por_hora_quadrado": "var / 0.0685218",
+      "gal": "var / 0.328084"
+    }
+  },
+  "area": {
+    "micrometro_quadrado": {
+      "milimetro_quadrado": "var / 1000000",
+      "centimetro_quadrado": "var / 10000",
+      "polegada_quadrada": "var / 645.16",
+      "pe_quadrado": "var / 92903",
+      "metro_quadrado": "var / 1000000000000",
+      "quilometro_quadrado": "var / 1000000000000000000",
+      "milha_quadrada": "var / 2590000000000000000",
+      "acre": "var / 4047000000000",
+      "hectare": "var / 10000000000000000"
+    },
+    "milimetro_quadrado": {
+      "micrometro_quadrado": "var * 1000000",
+      "centimetro_quadrado": "var / 100",
+      "polegada_quadrada": "var / 645.16",
+      "pe_quadrado": "var / 929.03",
+      "metro_quadrado": "var / 1000000",
+      "quilometro_quadrado": "var / 1000000000000",
+      "milha_quadrada": "var / 2590000000000",
+      "acre": "var / 4046.86",
+      "hectare": "var / 1000000"
+    },
+    "centimetro_quadrado": {
+      "micrometro_quadrado": "var * 10000",
+      "milimetro_quadrado": "var * 100",
+      "polegada_quadrada": "var / 6.452",
+      "pe_quadrado": "var / 929.03",
+      "metro_quadrado": "var / 10000",
+      "quilometro_quadrado": "var / 10000000000",
+      "milha_quadrada": "var / 25900000000",
+      "acre": "var / 404686",
+      "hectare": "var / 10000"
+    },
+    "polegada_quadrada": {
+      "micrometro_quadrado": "var * 645.16",
+      "milimetro_quadrado": "var * 645.16",
+      "centimetro_quadrado": "var * 6.452",
+      "pe_quadrado": "var / 144",
+      "metro_quadrado": "var / 1550",
+      "quilometro_quadrado": "var / 1550000000",
+      "milha_quadrada": "var / 4014000000",
+      "acre": "var / 6273000",
+      "hectare": "var / 15500000"
+    },
+    "pe_quadrado": {
+      "micrometro_quadrado": "var * 92903",
+      "milimetro_quadrado": "var * 929.03",
+      "centimetro_quadrado": "var * 929.03",
+      "polegada_quadrada": "var * 144",
+      "metro_quadrado": "var / 10.764",
+      "quilometro_quadrado": "var / 10760000",
+      "milha_quadrada": "var / 27880000",
+      "acre": "var / 43560",
+      "hectare": "var / 107639"
+    },
+    "metro_quadrado": {
+      "micrometro_quadrado": "var * 1000000000000",
+      "milimetro_quadrado": "var * 1000000",
+      "centimetro_quadrado": "var * 10000",
+      "polegada_quadrada": "var * 1550",
+      "pe_quadrado": "var * 10.764",
+      "quilometro_quadrado": "var / 1000000",
+      "milha_quadrada": "var / 2590000",
+      "acre": "var / 4047",
+      "hectare": "var / 10000"
+    },
+    "quilometro_quadrado": {
+      "micrometro_quadrado": "var * 1000000000000000000",
+      "milimetro_quadrado": "var * 1000000000000",
+      "centimetro_quadrado": "var * 10000000000",
+      "polegada_quadrada": "var * 1550000000",
+      "pe_quadrado": "var * 10760000",
+      "metro_quadrado": "var * 1000000",
+      "milha_quadrada": "var / 2.59",
+      "acre": "var * 247.105",
+      "hectare": "var * 100"
+    },
+    "milha_quadrada": {
+      "micrometro_quadrado": "var * 2590000000000000000",
+      "milimetro_quadrado": "var * 2590000000000",
+      "centimetro_quadrado": "var * 25900000000",
+      "polegada_quadrada": "var * 4014000000",
+      "pe_quadrado": "var * 27880000",
+      "metro_quadrado": "var * 2590000",
+      "quilometro_quadrado": "var * 2.59",
+      "acre": "var * 640",
+      "hectare": "var * 259"
+    },
+    "acre": {
+      "micrometro_quadrado": "var * 4047000000000",
+      "milimetro_quadrado": "var * 4046856422.4",
+      "centimetro_quadrado": "var * 40468564.224",
+      "polegada_quadrada": "var * 6272640",
+      "pe_quadrado": "var * 43560",
+      "metro_quadrado": "var * 4046.86",
+      "quilometro_quadrado": "var / 247.105",
+      "milha_quadrada": "var / 640",
+      "hectare": "var * 0.404686"
+    },
+    "hectare": {
+      "micrometro_quadrado": "var * 10000000000000000",
+      "milimetro_quadrado": "var * 1000000",
+      "centimetro_quadrado": "var * 10000",
+      "polegada_quadrada": "var * 15500000",
+      "pe_quadrado": "var * 107639",
+      "metro_quadrado": "var * 10000",
+      "quilometro_quadrado": "var / 100",
+      "milha_quadrada": "var / 259",
+      "acre": "var / 0.404686"
+    }
+  },
+  "volume": {
+    "litro": {
+      "mililitro": "var * 1000",
+      "metro_cubico": "var / 1000",
+      "galao": "var * 0.2642",
+      "pint": "var * 1.76",
+      "onca_fluida": "var * 33.814",
+      "centimetro_cubico": "var * 1000",
+      "pe_cubico": "var * 0.0353"
+    },
+    "mililitro": {
+      "litro": "var / 1000",
+      "metro_cubico": "var / 1000000",
+      "galao": "var / 3785",
+      "pint": "var / 568.261",
+      "onca_fluida": "var / 29.574",
+      "centimetro_cubico": "var * 1",
+      "pe_cubico": "var / 28317"
+    },
+    "metro_cubico": {
+      "litro": "var * 1000",
+      "mililitro": "var * 1000000",
+      "galao": "var * 264.172",
+      "pint": "var * 1759.754",
+      "onca_fluida": "var * 35195",
+      "centimetro_cubico": "var * 1000000",
+      "pe_cubico": "var * 35.315"
+    },
+    "galao": {
+      "litro": "var / 0.2642",
+      "mililitro": "var * 3785",
+      "metro_cubico": "var / 264.172",
+      "pint": "var * 6.661",
+      "onca_fluida": "var * 133.228",
+      "centimetro_cubico": "var * 3785.412",
+      "pe_cubico": "var * 0.1337"
+    },
+    "pint": {
+      "litro": "var / 1.76",
+      "mililitro": "var * 568.261",
+      "metro_cubico": "var / 1759.754",
+      "galao": "var / 6.661",
+      "onca_fluida": "var * 20",
+      "centimetro_cubico": "var * 568.261",
+      "pe_cubico": "var * 0.0185"
+    },
+    "onca_fluida": {
+      "litro": "var / 33.814",
+      "mililitro": "var * 29.574",
+      "metro_cubico": "var / 35195",
+      "galao": "var / 133.228",
+      "pint": "var / 20",
+      "centimetro_cubico": "var * 29.574",
+      "pe_cubico": "var / 957.506"
+    },
+    "centimetro_cubico": {
+      "litro": "var / 1000",
+      "mililitro": "var / 1",
+      "metro_cubico": "var / 1000000",
+      "galao": "var / 3785.412",
+      "pint": "var / 568.261",
+      "onca_fluida": "var / 29.574",
+      "pe_cubico": "var / 28317"
+    },
+    "pe_cubico": {
+      "litro": "var / 0.0353",
+      "mililitro": "var * 28,317",
+      "metro_cubico": "var / 35.315",
+      "galao": "var / 0.1337",
+      "pint": "var / 0.0185",
+      "onca_fluida": "var * 957.506",
+      "centimetro_cubico": "var * 28317"
+    }
+  },
+  "temperatura": {
+    "celsius": {
+      "fahrenheit": "(var * 1.8) + 32",
+      "kelvin": "var + 273.15"
+    },
+    "fahrenheit": {
+      "celsius": "(var - 32) / 1.8",
+      "kelvin": "(var + 459.67) / 1.8"
+    },
+    "kelvin": {
+      "celsius": "var - 273.15",
+      "fahrenheit": "(var * 1.8) - 459.67"
+    }
+  },
+  "peso_massa": {
+    "miligrama": {
+		"grama":"var * 0.001",
+		"quilograma":"var * 0.000001",
+		"tonelada":"var * 0.000000001",
+		"libra":"var * 0.00000220462",
+		"onca":"var * 0.00003527396"
+	  },
+	  "grama": {
+		"miligrama":"var * 1000.0",
+		"quilograma":"var * 0.001",
+		"tonelada":"var * 0.000001",
+		"libra":"var * 0.00220462",
+		"onca":"var * 0.03527396"
+	  },
+	  "quilograma": {
+		"miligrama": "var * 1000000.0",
+		"grama":"var * 1000.0",
+		"tonelada":"var * 0.001",
+		"libra":"var * 2.20462",
+		"onca":"var * 35.27396"
+	  },
+	  "tonelada": {
+		"miligrama":"var * 1000000000.0",
+		"grama":"var * 1000000.0",
+		"quilograma":"var * 1000.0",
+		"libra":"var * 2204.62",
+		"onca":"var * 35273.96"
+	  },
+	  "libra": {
+		"miligrama":"var * 453592.0",
+		"grama":"var * 453.592",
+		"quilograma":"var * 0.453592",
+		"tonelada":"var * 0.000453592",
+		"onca":"var * 16.0"
+	  },
+	  "onca": {
+		"miligrama":"var * 28349.5",
+		"grama":"var * 28.3495",
+		"quilograma":"var * 0.0283495",
+		"tonelada":"var * 0.0000283495",
+		"libra":"var * 0.0625"
+	  }
+  },
+  "tempo": {
+    "nanosegundo": {
+      "microsegundo": "var * 0.001",
+      "milisegundo": "var * 0.000001",
+      "segundo": "var * 0.000000001",
+      "minuto": "var * 0.0000000000166667",
+      "hora": "var * 0.000000000000277778",
+      "dia": "var * 0.0000000000000115741",
+      "semana": "var * 0.00000000000000165344",
+      "mes": "var * 0.000000000000000380517",
+      "ano": "var * 0.0000000000000000317098",
+      "decada": "var * 0.00000000000000000317098",
+      "seculo": "var * 0.000000000000000000317098"
+    },
+    "microsegundo": {
+      "nanosegundo": "var * 1000.0",
+      "milisegundo": "var * 0.001",
+      "segundo": "var * 0.000001",
+      "minuto": "var * 0.0000000166667",
+      "hora": "var * 0.000000000277778",
+      "dia": "var * 0.0000000000115741",
+      "semana": "var * 0.00000000000165344",
+      "mes": "var * 0.000000000000380517",
+      "ano": "var * 0.0000000000000317098",
+      "decada": "var * 0.00000000000000317098",
+      "seculo": "var * 0.000000000000000317098"
+    },
+    "milisegundo": {
+      "nanosegundo": "var * 1000000.0",
+      "microsegundo": "var * 1000.0",
+      "segundo": "var * 0.001",
+      "minuto": "var * 0.0000166667",
+      "hora": "var * 0.000000277778",
+      "dia": "var * 0.0000000115741",
+      "semana": "var * 0.00000000165344",
+      "mes": "var * 0.000000000380517",
+      "ano": "var * 0.0000000000317098",
+      "decada": "var * 0.00000000000317098",
+      "seculo": "var * 0.000000000000317098"
+    },
+    "segundo": {
+      "nanosegundo": "var * 1000000000.0",
+      "microsegundo": "var * 1000000.0",
+      "milisegundo": "var * 1000.0",
+      "minuto": "var * 0.0166667",
+      "hora": "var * 0.000277778",
+      "dia": "var * 0.0000115741",
+      "semana": "var * 0.00000165344",
+      "mes": "var * 0.000000380517",
+      "ano": "var * 0.0000000317098",
+      "decada": "var * 0.00000000317098",
+      "seculo": "var * 0.000000000317098"
+    },
+    "minuto": {
+      "nanosegundo": "var * 60000000000.0",
+      "microsegundo": "var * 60000000.0",
+      "milisegundo": "var * 60000.0",
+      "segundo": "var * 60.0",
+      "hora": "var * 0.0166667",
+      "dia": "var * 0.000694444",
+      "semana": "var * 0.0000992063",
+      "mes": "var * 0.000022816",
+      "ano": "var * 0.00000190131",
+      "decada": "var * 0.000000190131",
+      "seculo": "var * 0.0000000190131"
+    },
+    "hora": {
+      "nanosegundo": "var * 3600000000000.0",
+      "microsegundo": "var * 3600000000.0",
+      "milisegundo": "var * 3600000.0",
+      "segundo": "var * 3600.0",
+      "minuto": "var * 60.0",
+      "dia": "var * 0.0416667",
+      "semana": "var * 0.00595238",
+      "mes": "var * 0.00136986",
+      "ano": "var * 0.000114155",
+      "decada": "var * 0.0000114155",
+      "seculo": "var * 0.00000114155"
+    },
+    "dia": {
+      "nanosegundo": "var * 86400000000000.0",
+      "microsegundo": "var * 86400000000.0",
+      "milisegundo": "var * 86400000.0",
+      "segundo": "var * 86400.0",
+      "minuto": "var * 1440.0",
+      "hora": "var * 24.0",
+      "semana": "var * 0.142857",
+      "mes": "var * 0.0328767",
+      "ano": "var * 0.00273973",
+      "decada": "var * 0.000273973",
+      "seculo": "var * 0.0000273973"
+    },
+    "semana": {
+      "nanosegundo": "var * 604800000000000.0",
+      "microsegundo": "var * 604800000000.0",
+      "milisegundo": "var * 604800000.0",
+      "segundo": "var * 604800.0",
+      "minuto": "var * 10080.0",
+      "hora": "var * 168.0",
+      "dia": "var * 7.0",
+      "mes": "var * 0.229984",
+      "ano": "var * 0.0191781",
+      "decada": "var * 0.00191781",
+      "seculo": "var * 0.000191781"
+    },
+    "mes": {
+      "nanosegundo": "var * 2628000000000000.0",
+      "microsegundo": "var * 2628000000000.0",
+      "milisegundo": "var * 2628000000.0",
+      "segundo": "var * 2629746.0",
+      "minuto": "var * 43829.1",
+      "hora": "var * 730.484",
+      "dia": "var * 30.4369",
+      "semana": "var * 4.34527",
+      "ano": "var * 0.0833334",
+      "decada": "var * 0.00833333",
+      "seculo": "var * 0.000833333"
+    },
+    "ano": {
+      "nanosegundo": "var * 31540000000000000.0",
+      "microsegundo": "var * 31540000000000.0",
+      "milisegundo": "var * 31540000000.0",
+      "segundo": "var * 31536000.0",
+      "minuto": "var * 525600.0",
+      "hora": "var * 8760.0",
+      "dia": "var * 365.0",
+      "semana": "var * 52.1429",
+      "mes": "var * 12.0",
+      "decada": "var * 0.1",
+      "seculo": "var * 0.01"
+    },
+    "decada": {
+      "nanosegundo": "var * 315400000000000000.0",
+      "microsegundo": "var * 315400000000000.0",
+      "milisegundo": "var * 315400000000.0",
+      "segundo": "var * 315400000.0",
+      "minuto": "var * 5256000.0",
+      "hora": "var * 87600.0",
+      "dia": "var * 3650.0",
+      "semana": "var * 521.429",
+      "mes": "var * 120.0",
+      "ano": "var * 10.0",
+      "seculo": "var * 0.1"
+    },
+    "seculo": {
+      "nanosegundo": "var * 3154000000000000000.0",
+      "microsegundo": "var * 3154000000000000.0",
+      "milisegundo": "var * 3154000000000.0",
+      "segundo": "var * 3154000000.0",
+      "minuto": "var * 52560000.0",
+      "hora": "var * 876000.0",
+      "dia": "var * 36500.0",
+      "semana": "var * 5214.29",
+      "mes": "var * 1200.0",
+      "ano": "var * 100.0",
+      "decada": "var * 10.0"
+    }
+  },
+  "forca": {
+    "newton": {
+      "kilonewton": "var / 1000",
+      "grama_forca": "var * 101.972",
+      "quilograma_forca": "var * 0.101972",
+      "tonelada_forca": "var * 0.000101972",
+      "libra_forca": "var * 0.224809"
+    },
+    "kilonewton": {
+      "newton": "var * 1000",
+      "grama_forca": "var * 101972",
+      "quilograma_forca": "var * 101.972",
+      "tonelada_forca": "var * 0.101972",
+      "libra_forca": "var * 224.809"
+    },
+    "grama_forca": {
+      "newton": "var / 101.972",
+      "kilonewton": "var / 101972",
+      "quilograma_forca": "var / 1000",
+      "tonelada_forca": "var / 1,019,720",
+      "libra_forca": "var / 453.592"
+    },
+    "quilograma_forca": {
+      "newton": "var / 0.101972",
+      "kilonewton": "var / 101.972",
+      "grama_forca": "var * 1000",
+      "tonelada_forca": "var / 1019.72",
+      "libra_forca": "var * 2.20462"
+    },
+    "tonelada_forca": {
+      "newton": "var / 0.000101972",
+      "kilonewton": "var / 0.101972",
+      "grama_forca": "var * 1,019,720",
+      "quilograma_forca": "var * 1019.72",
+      "libra_forca": "var * 2204.62"
+    },
+    "libra_forca": {
+      "newton": "var / 0.224809",
+      "kilonewton": "var / 224.809",
+      "grama_forca": "var * 453.592",
+      "quilograma_forca": "var / 2.20462",
+      "tonelada_forca": "var / 2204.62"
+    }
+  },
+  "pressao": {
+    "pascal": {
+      "quilopascal": "var / 1000",
+      "bar": "var / 100000",
+      "libra_por_polegada_quadrada": "var / 6895",
+      "milimetro_de_mercurio": "var / 133",
+      "centimetro_de_mercurio": "var / 1333",
+      "polegada_de_mercurio": "var / 3386"
+    },
+    "quilopascal": {
+      "pascal": "var * 1000",
+      "bar": "var / 100",
+      "libra_por_polegada_quadrada": "var * 0.145038",
+      "milimetro_de_mercurio": "var * 7.50062",
+      "centimetro_de_mercurio": "var / 1.333",
+      "polegada_de_mercurio": "var * 0.2953"
+    },
+    "bar": {
+      "pascal": "var * 100000",
+      "quilopascal": "var * 100",
+      "libra_por_polegada_quadrada": "var * 14.5038",
+      "milimetro_de_mercurio": "var * 750.062",
+      "centimetro_de_mercurio": "var * 10",
+      "polegada_de_mercurio": "var * 29.53"
+    },
+    "libra_por_polegada_quadrada": {
+      "pascal": "var * 6895",
+      "quilopascal": "var * 6.895",
+      "bar": "var / 14.504",
+      "milimetro_de_mercurio": "var * 51.715",
+      "centimetro_de_mercurio": "var * 0.4912",
+      "polegada_de_mercurio": "var * 2.036"
+    },
+    "milimetro_de_mercurio": {
+      "pascal": "var * 133",
+      "quilopascal": "var / 7.50062",
+      "bar": "var / 750.062",
+      "libra_por_polegada_quadrada": "var / 51.715",
+      "centimetro_de_mercurio": "var / 10",
+      "polegada_de_mercurio": "var / 25.4"
+    },
+    "centimetro_de_mercurio": {
+      "pascal": "var * 1333",
+      "quilopascal": "var * 1.333",
+      "bar": "var / 10",
+      "libra_por_polegada_quadrada": "var / 0.4912",
+      "milimetro_de_mercurio": "var * 10",
+      "polegada_de_mercurio": "var / 2.54"
+    },
+    "polegada_de_mercurio": {
+      "pascal": "var * 3386",
+      "quilopascal": "var / 0.2953",
+      "bar": "var / 29.53",
+      "libra_por_polegada_quadrada": "var * 2.036",
+      "milimetro_de_mercurio": "var * 25.4",
+      "centimetro_de_mercurio": "var * 2.54"
+    }
+  },
+  "energia": {
+    "joule": {
+      "quilojoule": "var / 1000",
+      "caloria": "var / 4.184",
+      "quilocaloria": "var / 4184",
+      "watt_hora": "var / 3600",
+      "quilowatt_hora": "var / 3600000",
+      "eletron_volts": "var / 0.0000000000000000001602",
+      "british_thermal_unit": "var / 1055",
+      "termia": "var / 105500000"
+    },
+    "quilojoule": {
+      "joule": "var * 1000",
+      "caloria": "var * 239",
+      "quilocaloria": "var / 4.184",
+      "watt_hora": "var / 3.6",
+      "quilowatt_hora": "var / 3600",
+      "eletron_volts": "var / 0.0000000000000000000001602",
+      "british_thermal_unit": "var / 1.055",
+      "termia": "var / 105480"
+    },
+    "caloria": {
+      "joule": "var * 4.184",
+      "quilojoule": "var / 239",
+      "quilocaloria": "var / 1000",
+      "watt_hora": "var / 860",
+      "quilowatt_hora": "var / 860421",
+      "eletron_volts": "var / 0.00000000000000000003829",
+      "british_thermal_unit": "var / 252",
+      "termia": "var / 25210000"
+    },
+    "quilocaloria": {
+      "joule": "var * 4184",
+      "quilojoule": "var * 4.184",
+      "caloria": "var * 1000",
+      "watt_hora": "var / 0.860",
+      "quilowatt_hora": "var / 860",
+      "eletron_volts": "var / 0.0000000000000000000003829",
+      "british_thermal_unit": "var / 3.968",
+      "termia": "var / 2.5210000000000"
+    },
+    "watt_hora": {
+      "joule": "var * 3600",
+      "quilojoule": "var * 3.6",
+      "caloria": "var * 860",
+      "quilocaloria": "var * 0.860",
+      "quilowatt_hora": "var / 1000",
+      "eletron_volts": "var / 0.0000000000000000000002247",
+      "british_thermal_unit": "var / 3.412",
+      "termia": "var / 341200"
+    },
+    "quilowatt_hora": {
+      "joule": "var * 3.6e+6",
+      "quilojoule": "var * 3600",
+      "caloria": "var * 860421",
+      "quilocaloria": "var * 860",
+      "watt_hora": "var * 1000",
+      "eletron_volts": "var / 0.0000000000000000002247",
+      "british_thermal_unit": "var / 0.003412",
+      "termia": "var / 341200000"
+    },
+    "eletron_volts": {
+      "joule": "var * 0.0000000000000000001602",
+      "quilojoule": "var * 0.0000000000000000000001602",
+      "caloria": "var * 0.00000000000000000003829",
+      "quilocaloria": "var * 0.0000000000000000000003829",
+      "watt_hora": "var * 0.0000000000000000000002247",
+      "quilowatt_hora": "var * 0.0000000000000000002247",
+      "british_thermal_unit": "var / 0.000000000000000000006585",
+      "termia": "var / 658500000000000"
+    },
+    "british_thermal_unit": {
+      "joule": "var * 1055",
+      "quilojoule": "var * 1.055",
+      "caloria": "var * 252",
+      "quilocaloria": "var * 3.968",
+      "watt_hora": "var * 0.0009478",
+      "quilowatt_hora": "var / 3.412",
+      "eletron_volts": "var * 6585000000000000000000",
+      "termia": "var / 100000"
+    },
+    "termia": {
+      "joule": "var * 105500000",
+      "quilojoule": "var * 105480",
+      "caloria": "var * 25210000",
+      "quilocaloria": "var * 2.5210000000000",
+      "watt_hora": "var * 341200",
+      "quilowatt_hora": "var * 341.2",
+      "eletron_volts": "var * 658500000000000",
+      "british_thermal_unit": "var * 100000"
+    }
+  },
+  "potencia": {
+    "watt": {
+      "quilowatt": "var / 1000",
+      "cavalo_vapor": "var / 735.5",
+      "british_thermal_unit_por_hora": "var / 3.412",
+      "caloria_por_segundo": "var / 4.184",
+      "libra_por_pe_por_minuto": "var / 0.022596"
+    },
+    "quilowatt": {
+      "watt": "var * 1000",
+      "cavalo_vapor": "var * 1.35962",
+      "british_thermal_unit_por_hora": "var * 3412",
+      "caloria_por_segundo": "var * 859.85",
+      "libra_por_pe_por_minuto": "var * 44.2537"
+    },
+    "cavalo_vapor": {
+      "watt": "var * 735.5",
+      "quilowatt": "var / 1.35962",
+      "british_thermal_unit_por_hora": "var * 2544.43",
+      "caloria_por_segundo": "var * 641.186",
+      "libra_por_pe_por_minuto": "var * 33,000"
+    },
+    "british_thermal_unit_por_hora": {
+      "watt": "var * 3.412",
+      "quilowatt": "var / 3412",
+      "cavalo_vapor": "var / 2544.43",
+      "caloria_por_segundo": "var / 2521",
+      "libra_por_pe_por_minuto": "var * 778.169"
+    },
+    "caloria_por_segundo": {
+      "watt": "var * 4.184",
+      "quilowatt": "var / 859.85",
+      "cavalo_vapor": "var / 641.186",
+      "british_thermal_unit_por_hora": "var * 2521",
+      "libra_por_pe_por_minuto": "var * 59.6213"
+    },
+    "libra_por_pe_por_minuto": {
+      "watt": "var * 0.022596",
+      "quilowatt": "var / 44.2537",
+      "cavalo_vapor": "var / 33,000",
+      "british_thermal_unit_por_hora": "var / 778.169",
+      "caloria_por_segundo": "var / 59.6213"
+    }
+  },
+  "frequencia": {
+    "hertz": {
+      "kilohertz": "0.001 * var",
+      "megahertz": "0.000001 * var",
+      "gigahertz": "0.000000001 * var",
+      "terahertz": "0.000000000001 * var",
+      "revolucao_por_minuto": "60 * var"
+    },
+    "kilohertz": {
+      "hertz": "1000 * var",
+      "megahertz": "0.001 * var",
+      "gigahertz": "0.000001 * var",
+      "terahertz": "0.000000001 * var",
+      "revolucao_por_minuto": "60000 * var"
+    },
+    "megahertz": {
+      "hertz": "1000000 * var",
+      "kilohertz": "1000 * var",
+      "gigahertz": "0.001 * var",
+      "terahertz": "0.000001 * var",
+      "revolucao_por_minuto": "60000000 * var"
+    },
+    "gigahertz": {
+      "hertz": "1000000000 * var",
+      "kilohertz": "1000000 * var",
+      "megahertz": "1000 * var",
+      "terahertz": "0.001 * var",
+      "revolucao_por_minuto": "60000000000 * var"
+    },
+    "terahertz": {
+      "hertz": "1000000000000 * var",
+      "kilohertz": "1000000000 * var",
+      "megahertz": "1000000 * var",
+      "gigahertz": "1000 * var",
+      "revolucao_por_minuto": "60000000000000 * var"
+    },
+    "revolucao_por_minuto": {
+      "hertz": "0.0166667 * var",
+      "kilohertz": "0.0000166667 * var",
+      "megahertz": "0.0000000166667 * var",
+      "gigahertz": "0.0000000000166667 * var",
+      "terahertz": "0.0000000000000166667 * var"
+    }
+  },
+  "angulo": {
+    "grau": {
+      "radiano": "var * 0.01745329251",
+      "grado": "var * 1.11111111111",
+      "minuto_de_arco": "var * 60",
+      "segundo_de_arco": "var * 3600"
+    },
+    "radiano": {
+      "grau": "var * 57.2958",
+      "grado": "var * 63.661977",
+      "minuto_de_arco": "var * 3437.74677",
+      "segundo_de_arco": "var * 206264.806"
+    },
+    "grado": {
+      "grau": "var * 0.9",
+      "radiano": "var * 0.0157079",
+      "minuto_de_arco": "var * 54",
+      "segundo_de_arco": "var * 3240"
+    },
+    "minuto_de_arco": {
+      "grau": "var / 60",
+      "radiano": "var * 0.000290888",
+      "grado": "var / 54",
+      "segundo_de_arco": "var * 60"
+    },
+    "segundo_de_arco": {
+      "grau": "var / 3600",
+      "radiano": "var * 3.141592653589793 / (180 * 3600)",
+      "grado": "var / 3240",
+      "minuto_de_arco": "var / 60"
+    }
+  },
+  "armazenamento_dados": {
+    "bit": {
+      "byte": "var / 8",
+      "kilobit": "var / 1000",
+      "kilobyte": "var / 8000",
+      "megabit": "var / 1000000",
+      "megabyte": "var / 8000000",
+      "gigabit": "var / 1000000000",
+      "gigabyte": "var / 8000000000",
+      "terabit": "var / 1000000000000",
+      "terabyte": "var / 8000000000000"
+    },
+    "byte": {
+      "bit": "var * 8",
+      "kilobit": "var / 125",
+      "kilobyte": "var / 1000",
+      "megabit": "var / 125000",
+      "megabyte": "var / 1000000",
+      "gigabit": "var / 125000000",
+      "gigabyte": "var / 1000000000",
+      "terabit": "var / 125000000000",
+      "terabyte": "var / 1000000000000"
+    },
+    "kilobit": {
+      "bit": "var * 1000",
+      "byte": "var * 125",
+      "kilobyte": "var / 8",
+      "megabit": "var / 1000",
+      "megabyte": "var / 8000",
+      "gigabit": "var / 1000000",
+      "gigabyte": "var / 8000000",
+      "terabit": "var / 1000000000",
+      "terabyte": "var / 8000000000"
+    },
+    "kilobyte": {
+      "bit": "var * 8000",
+      "byte": "var * 1000",
+      "kilobit": "var * 8",
+      "megabit": "var / 125",
+      "megabyte": "var / 1000",
+      "gigabit": "var / 125000",
+      "gigabyte": "var / 1000000",
+      "terabit": "var / 125000000",
+      "terabyte": "var / 1000000000"
+    },
+    "megabit": {
+      "bit": "var * 1000000",
+      "byte": "var * 125000",
+      "kilobit": "var * 1000",
+      "kilobyte": "var * 125",
+      "megabyte": "var / 8",
+      "gigabit": "var / 1000",
+      "gigabyte": "var / 8000",
+      "terabit": "var / 1000000",
+      "terabyte": "var / 8000000"
+    },
+    "megabyte": {
+      "bit": "var * 8000000",
+      "byte": "var * 1000000",
+      "kilobit": "var * 8000",
+      "kilobyte": "var * 1000",
+      "megabit": "var * 8",
+      "gigabit": "var / 125",
+      "gigabyte": "var / 1000",
+      "terabit": "var / 125000",
+      "terabyte": "var / 1000000"
+    },
+    "gigabit": {
+      "bit": "var * 1000000000",
+      "byte": "var * 125000000",
+      "kilobit": "var * 1000000",
+      "kilobyte": "var * 125000",
+      "megabit": "var * 1000",
+      "megabyte": "var * 125",
+      "gigabyte": "var / 8",
+      "terabit": "var / 1000",
+      "terabyte": "var / 8000"
+    },
+    "gigabyte": {
+      "bit": "var * 8000000000",
+      "byte": "var * 1000000000",
+      "kilobit": "var * 8000000",
+      "kilobyte": "var * 1000000",
+      "megabit": "var * 8000",
+      "megabyte": "var * 1000",
+      "gigabit": "var * 8",
+      "terabit": "var / 125",
+      "terabyte": "var / 1000"
+    },
+    "terabit": {
+      "bit": "var * 1000000000000",
+      "byte": "var * 125000000000",
+      "kilobit": "var * 1000000000",
+      "kilobyte": "var * 125000000",
+      "megabit": "var * 1000000",
+      "megabyte": "var * 125000",
+      "gigabit": "var * 1000",
+      "gigabyte": "var * 125",
+      "terabyte": "var / 8"
+    },
+    "terabyte": {
+      "bit": "var * 8000000000000",
+      "byte": "var * 1000000000000",
+      "kilobit": "var * 8000000000",
+      "kilobyte": "var * 1000000000",
+      "megabit": "var * 8000000",
+      "megabyte": "var * 1000000",
+      "gigabit": "var * 8000",
+      "gigabyte": "var * 1000",
+      "terabit": "var * 8"
+    }
+  },
+  "velocidade_transferencia_dados": {
+    "bit_por_segundo": {
+      "byte_por_segundo": "var / 8",
+      "kilobit_por_segundo": "var / 1000",
+      "kilobyte_por_segundo": "var / 8000",
+      "megabit_por_segundo": "var / 1000000",
+      "megabyte_por_segundo": "var / 8000000",
+      "gigabit_por_segundo": "var / 1000000000",
+      "gigabyte_por_segundo": "var / 8000000000",
+      "terabit_por_segundo": "var / 1000000000000",
+      "terabyte_por_segundo": "var / 8000000000000"
+    },
+    "byte_por_segundo": {
+      "bit_por_segundo": "var * 8",
+      "kilobit_por_segundo": "var / 125",
+      "kilobyte_por_segundo": "var / 1000",
+      "megabit_por_segundo": "var / 125000",
+      "megabyte_por_segundo": "var / 1000000",
+      "gigabit_por_segundo": "var / 125000000",
+      "gigabyte_por_segundo": "var / 1000000000",
+      "terabit_por_segundo": "var / 125000000000",
+      "terabyte_por_segundo": "var / 1000000000000"
+    },
+    "kilobit_por_segundo": {
+      "bit_por_segundo": "var * 1000",
+      "byte_por_segundo": "var * 125",
+      "kilobyte_por_segundo": "var / 8",
+      "megabit_por_segundo": "var / 1000",
+      "megabyte_por_segundo": "var / 8000",
+      "gigabit_por_segundo": "var / 1000000",
+      "gigabyte_por_segundo": "var / 8000000",
+      "terabit_por_segundo": "var / 1000000000",
+      "terabyte_por_segundo": "var / 8000000000"
+    },
+    "kilobyte_por_segundo": {
+      "bit_por_segundo": "var * 8000",
+      "byte_por_segundo": "var * 1000",
+      "kilobit_por_segundo": "var * 8",
+      "megabit_por_segundo": "var / 125",
+      "megabyte_por_segundo": "var / 1000",
+      "gigabit_por_segundo": "var / 125000",
+      "gigabyte_por_segundo": "var / 1000000",
+      "terabit_por_segundo": "var / 125000000",
+      "terabyte_por_segundo": "var / 1000000000"
+    },
+    "megabit_por_segundo": {
+      "bit_por_segundo": "var * 1000000",
+      "byte_por_segundo": "var * 125000",
+      "kilobit_por_segundo": "var * 1000",
+      "kilobyte_por_segundo": "var * 125",
+      "megabyte_por_segundo": "var / 8",
+      "gigabit_por_segundo": "var / 1000",
+      "gigabyte_por_segundo": "var / 8000",
+      "terabit_por_segundo": "var / 1000000",
+      "terabyte_por_segundo": "var / 8000000"
+    },
+    "megabyte_por_segundo": {
+      "bit_por_segundo": "var * 8000000",
+      "byte_por_segundo": "var * 1000000",
+      "kilobit_por_segundo": "var * 8000",
+      "kilobyte_por_segundo": "var * 1000",
+      "megabit_por_segundo": "var * 8",
+      "gigabit_por_segundo": "var / 125",
+      "gigabyte_por_segundo": "var / 1000",
+      "terabit_por_segundo": "var / 125000",
+      "terabyte_por_segundo": "var / 1000000"
+    },
+    "gigabit_por_segundo": {
+      "bit_por_segundo": "var * 1000000000",
+      "byte_por_segundo": "var * 125000000",
+      "kilobit_por_segundo": "var * 1000000",
+      "kilobyte_por_segundo": "var * 125000",
+      "megabit_por_segundo": "var * 1000",
+      "megabyte_por_segundo": "var * 125",
+      "gigabyte_por_segundo": "var / 8",
+      "terabit_por_segundo": "var / 1000",
+      "terabyte_por_segundo": "var / 8000"
+    },
+    "gigabyte_por_segundo": {
+      "bit_por_segundo": "var * 8000000000",
+      "byte_por_segundo": "var * 1000000000",
+      "kilobit_por_segundo": "var * 8000000",
+      "kilobyte_por_segundo": "var * 1000000",
+      "megabit_por_segundo": "var * 8000",
+      "megabyte_por_segundo": "var * 1000",
+      "gigabit_por_segundo": "var * 8",
+      "terabit_por_segundo": "var / 125",
+      "terabyte_por_segundo": "var / 1000"
+    },
+    "terabit_por_segundo": {
+      "bit_por_segundo": "var * 1000000000000",
+      "byte_por_segundo": "var * 125000000000",
+      "kilobit_por_segundo": "var * 1000000000",
+      "kilobyte_por_segundo": "var * 125000000",
+      "megabit_por_segundo": "var * 1000000",
+      "megabyte_por_segundo": "var * 125000",
+      "gigabit_por_segundo": "var * 1000",
+      "gigabyte_por_segundo": "var * 125",
+      "terabyte_por_segundo": "var / 8"
+    },
+    "terabyte_por_segundo": {
+      "bit_por_segundo": "var * 8000000000000",
+      "byte_por_segundo": "var * 1000000000000",
+      "kilobit_por_segundo": "var * 8000000000",
+      "kilobyte_por_segundo": "var * 1000000000",
+      "megabit_por_segundo": "var * 8000000",
+      "megabyte_por_segundo": "var * 1000000",
+      "gigabit_por_segundo": "var * 8000",
+      "gigabyte_por_segundo": "var * 1000",
+      "terabit_por_segundo": "var * 8"
+    }
+  },
+  "consumo_combustivel": {
+    "quilometro_por_litro": {
+      "milha_por_galao": "var * 2.35215",
+      "litro_por_cem_quilometros": "var * 100"
+    },
+    "milha_por_galao": {
+      "quilometro_por_litro": "var * 0.425144",
+      "litro_por_cem_quilometros": "var *235.215"
+    },
+    "litro_por_cem_quilometros": {
+      "quilometro_por_litro": "var * 0.01",
+      "milha_por_galao": "var * 0.00425144"
+    }
+  }
+}
