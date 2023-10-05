@@ -1,0 +1,31 @@
+.hover-link {
+	color: inherit; /* Mantém a cor do link padrão */
+	text-decoration: none; /* Remove o sublinhado */
+	transition: opacity 0.3s; /* Adiciona efeito de transição na opacidade */
+  }
+  
+  .hover-link:hover {
+	opacity: 0.7; /* Altera a opacidade ao passar o mouse */
+  }
+
+  .centered-container {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5); /* Adicione um fundo semi-transparente para destacar o card */
+  }
+  
+  .centered-card { /* Ajuste a largura máxima do card conforme necessário */
+	text-align: center;
+	background-color: white;
+	padding: 5px;
+  }
+
+  body {	
+	background-color: rgba(0, 0, 0, 0.5);
+  }
