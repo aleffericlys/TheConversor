@@ -28,6 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['.vercel.app ',
 				 'the-conversor.vercel.app',
+				 'the-conversor-ix0tkkgx7-aleff-ericlys-projects.vercel.app',
 				 '127.0.0.1']
 
 
