@@ -8,3 +8,5 @@ Para coleta de dados de moedas e cripto moedas, faz uso das API's:<p>
 	- Cotação de cripto moedas: https://api.binance.com/api/v3/ticker/price<p>
   
 Para a parte de dados estáticos usa uma biblioteca criada por mim mesmo com base na coleta de dados na internet para a conversão de valores, locaizado em /static/json tendo como objetivo fututo a criação de uma API própria para acesso a esses dados.
+
+Aplicação atualmente online em: https://the-conversor.vercel.app
